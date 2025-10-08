@@ -12,7 +12,7 @@ services:
       - key: WORDPRESS_DB_USER
         value: e0f99eww00ja7etbkd8x          # ← username من PlanetScale
       - key: WORDPRESS_DB_PASSWORD
-        value: pscale_pw_XMH1KIP5Pl8Wc98NXt.......  # ← password من PlanetScale
+          sync: false  # ← password من PlanetScale
       - key: WORDPRESS_DB_NAME
         value: wordpress_db                   # ← اسم قاعدة البيانات
       - key: WORDPRESS_DEBUG
